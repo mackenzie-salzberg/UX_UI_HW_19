@@ -1,0 +1,120 @@
+* {
+    font-family: Futura;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 32px;
+    
+   }
+    
+   h1 {
+      text-align: center;
+    }
+   body{
+    background-color: #FAEBD7
+   }
+     .flexContainer {
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        margin: 10px;
+        padding: 10px;
+       
+    }
+    .userResearch {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 33%;
+     
+    }
+    
+   .logo{
+    height: 10vh;
+    width: 100px;
+    border-radius: 150px;
+   }
+    
+   .paragraph{
+    width: 50%;
+    }
+    
+   h3{
+    text-align: center;
+   }
+    
+   .workGrid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+   }
+    
+   .leftSide{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   }
+    
+   .image{
+    width: 395px;
+    height: 251px;
+    margin-left: 50%;
+    border-radius: 78px;
+   }
+    
+   .image-Container{
+    margin: 50px;
+    padding: 25px;
+    
+   }
+    
+    
+   .rightSide{
+    display: flex;
+    flex-direction: column;
+   }
+    
+   .content{
+    margin: 50px;
+    margin-top: 20px;
+   }
+    
+   button{
+    background-color: #C1CDC1 ;
+   }
+    
+    
+   @media only screen and (max-width:600px){
+    .flexContainer {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }}
+    
+    @media only screen and (max-width:600px) {
+      .workGrid {
+        display: flex;
+      flex-direction: column;
+      width: 100%;
+      }
+    }
+   
+
+    
+
+    button{
+      animation: bounce 0.8s infinite ;
+    }
+
+    @keyframes bounce {
+      from{
+        margin-top: 0px;
+      }
+      50% {
+        margin-top: 7px;
+      }
+      to {
+        margin-top: 0px;
+      }
+    }
