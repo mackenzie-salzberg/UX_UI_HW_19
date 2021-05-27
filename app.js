@@ -3,7 +3,7 @@ gsap.to(".flexContainer",{
         trigger: ".flexContainer",
         scrub: true,
         start: "110% center",
-
+        
     },
     duration: 1.1,
     scale: 1.2,
